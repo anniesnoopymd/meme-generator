@@ -1,4 +1,4 @@
-const username = 'AnnieTsai';
-const password = '';
+const username = 'anniesnoopymd';
+const password = '61y83reb';
 
-export { unsername, password };
+export { username, password };
