@@ -10,12 +10,17 @@ class MemeItem extends Component{
       }
   }
 
+  postMeme(){
+    console.log('this', this.props);
+  }
+
     render(){
       return (
         <div
           className="meme-item"
           onMouseEnter={() => this.setState({ hovered: true })}
           onMouseLeave={() => this.setState({ hovered: false })}
+          onClick={() => this.postMeme()}
         >
           <img
           src={this.props.meme.url}
